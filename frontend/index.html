@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCompare | Confident in your choice</title>
+    <link rel = "stylesheet" href = "css/style.css">
+</head>
+<body>
+    <header class = "header">
+        <a href="#" class="logo">C<span>Compare</span></a>
+
+        <nav class = "navbar">
+            <a href = "#home">Home</a>
+            <a href = "#cars">Cars</a>
+            <a href = "#compare">Compare</a>
+        </nav>
+
+        <div class = "auth-buttons">
+            <a href = "#login" class = "login-btn">Log in</a>
+            <a href = "#register" class = "register-btn">Register</a>
+        </div>
+    </header>
+
+    <main>
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="eyebrow">FIND THE BEST CAR FOR YOU</p>
+
+        <h1>
+            The right choice for you and your needs
+            <br>
+            <span>Have confidence in your decisions</span>
+        </h1>
+
+        <p class="hero-description">
+            Compare cars, learn about them and choose your next best friend
+            for the road.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#cars" class="primary-btn">Find cars</a>
+            <a href="#compare" class="secondary-btn">Compare cars</a>
+        </div>
+    </div>
+</section>
+```
+
+        <section class = "section" id = "cars">
+            <div class = "section-heading">
+                <div>
+                    <p class = "eyebrow">EXPLORE OUR SELECTION</p>
+                    <h2>Find a car that suits you</h2>
+                </div>
+                <p>Find and compare</p>
+            </div>
+
+            <div class = "search-box">
+                <input type = "text" placeholder = "Search by car or model">
+                <select>
+                    <option value ="">All brands</option>
+                    <option>Volkswagen(VW)</option>
+                    <option>Audi</option>
+                    <option>BMW</option>
+                    <option>Mercedes-Benz</option>  
+                </select>
+                <button type = "button">Let's go!</button>
+            </div>
+
+            <div class = "car-grid">
+                <article class="car-card">
+                    <img src="https://www.funcar.at/images/content/vw_golf_variant_life_2021.jpg" alt="Golf">
+                    <div class="info">
+                        <span class="kategorija">WAGON</span>
+                        <h3>Volkswagen Golf Variant</h3>
+                        <p>Spacious, practical, everyday family car.</p>
+                        <a href="#compare" class="card-link">CCompare →</a>
+                    </div>
+                </article>
+
+                <article class="car-card">
+                    <img src="https://emea-dam.audi.com/adobe/assets/urn:aaid:aem:713df1e5-1a6f-4387-9cad-d5220d2bcc85/as/a4_Saloon_sport_34_1280x1080px.png?width=576" alt="Audi">
+                    <div class="info">
+                        <span class="kategorija">SEDAN</span>
+                        <h3>Audi A4</h3>
+                        <p>Modern design and advanced technology.</p>
+                        <a href="#compare" class="card-link">CCompare →</a>
+                    </div>
+                </article>
+
+                <article class="car-card">
+                    <img src="https://di-uploads-pod4.dealerinspire.com/mercedesbenzoflagunaniguelredesign/uploads/2026/04/Jelly-Bean-Trim-C-300-4MATIC-1.webp" alt="Mercedes-Benz">
+                    <div class="info">
+                        <span class="kategorija">SEDAN</span>
+                        <h3>Mercedes-Benz C-class</h3>
+                        <p>Elegance, comfort and recognizable style.</p>
+                        <a href="#compare" class="card-link">CCompare →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class = "uporedi-sekciju" id="compare">
+            <p class = "eyebrow">SMARTER DECISION</p>
+            <h2>Two choices. Which one is the best choice for you?</h2>
+            <p>Everything in one place, here to help you find the best choice for you.</p>
+            <a href = "#cars" class = "primary-btn">Choose</a>
+        </section>
+
+        <section class = "section account-section" id = "login">
+            <div class = "profile">
+                <p class = "eyebrow">WELCOME TO CCOMPARE</p>
+                <h2>Log in</h2>
+                <p>Log in to have the best experience and enjoy CCompare without limits.</p>
+                <form>
+                    <label for = "login-email">Email address</label>
+                    <input id = "login-email" type = "email" placeholder = "name@email.com">
+                    <label for="login-password">Password</label>
+                    <input id = "login-password" type = "password" placeholder = "Input password">
+                    <button type = "button" class = "primary-btn">Log in</button>
+                </form>
+                <p class = "form-note">Don't have an account?<a href = "#register">Register now!</a></p>
+            </div>
+        </section>
+
+        <section class = "section account-section" id = "register">
+            <div class = "profile">
+                <p class = "eyebrow">BECOME A PART OF THE TEAM</p>
+                <h2>Create an account</h2>
+                <p>Create your account and begin your search with us.</p>
+                <form>
+                    <label for = "register-name">Name and Surname</label>
+                    <input id="register-name" type = "text" placeholder = "Your name">
+                    <label for="register-email">Email address</label>
+                    <input id="register-email" type="email" placeholder="name@email.com">
+                    <label for="register-password">Password</label>
+                    <input id="register-password" type="password" placeholder="Create your own password">
+                    <button type="button" class="primary-btn">Registration</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class = "footer">
+        <a href = "#home" class = "logo">C<span>Compare</a>
+        <p>Find. Compare. Drive.</p> 
+    </footer>
+
+    <script src = "js/app.js"></script>
+    
+</body>
+</html>
